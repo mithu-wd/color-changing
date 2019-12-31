@@ -18,14 +18,12 @@ h1{
     text-align: center;
     padding: 10px;
     font-size: 15px;
-    background-color: blue;
     height: 15px;
     border: black solid 1px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #main{
 width: 100vw;
 height: 100vh;
-background-color: white;
 }
