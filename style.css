@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    cursor: none;    
+
+}
+.container{
+    font-family: sans-serif;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1{
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: blue;
+    height: 15px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+#main{
+width: 100vw;
+height: 100vh;
+background-color: white;
+}
