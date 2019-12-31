@@ -8,7 +8,7 @@ document.onmousemove=function(){
 var h=parseInt(y1/window.innerHeight*100);
 var w=parseInt(x1/window.innerWidth*100)
 
-var G=150;
+var G=200;
 var B=h*2.5;
 var R=w*2.5;
 document.getElementById("mouse").textContent=("Position "+x1+" "+y1);
@@ -18,14 +18,11 @@ document.getElementById("mouse").textContent=("Position "+x1+" "+y1);
 document.getElementById("main").style.backgroundColor=
 "rgb("+R+","+
 G+","+B+")";
+
+document.getElementById("d").style.backgroundColor=
+"rgb("+G+","+
+B+","+R+")";
 }
-
-
-
-
-
-
-
 document.onmouseleave=function()
 {
     document.getElementById("mouse").textContent=("Position 0 0");
